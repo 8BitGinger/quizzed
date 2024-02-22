@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.531);
+  font-family: 'Kode Mono', monospace;
+  color: white;
+}
+
+.wallpaper {
+  background-image: url(./assets/quizzed.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.major-title {
+  font-size: 80px;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #0ff,
+    0 0 35px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 75px #0ff;
+  color: #050505ca;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.709), rgba(0, 0, 0, 0.787));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+  padding: 10px;
+  top: 20%;
+  max-width: 80vw;
+  border-radius: 25px;
+}
+
+.btn1 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.next {
+  width: fit-content;
+  border-radius: 50%;
+  margin: 5px 10px;
+  padding: 10px;
+  background-color: rgb(42, 241, 255);
+  font-size: x-large;
+  text-decoration: none;
+}
+
+.start {
+  width: fit-content;
+  border-radius: 50%;
+  margin: 5px 10px;
+  padding: 10px;
+  background-color: rgb(42, 241, 255);
+  font-size: x-large;
+  text-decoration: none;
+}
+
+.removelink {
+  text-decoration: none;
+}
+
+.answers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.answer {
+  width: 50%;
+}
+
+.highscore {
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.home {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+}
+
+.timer {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.btn {
+  width: 48%;
+  background-color: black;
+  color: rgb(42, 241, 255);
+  font-size: 25px;
+}
+
+.app h1 {
+  font-size: 30px;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #0ff,
+    0 0 35px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 75px #0ff;
+  color: #010000;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Kode Mono', monospace;
+  font-weight: 600;
+  letter-spacing: 5px;
+  animation: animate 2s linear infinite;
+}
+
+.trophy {
+  max-width: 200px;
+}

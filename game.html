@@ -1,0 +1,51 @@
+<DOCTYPE html>
+<html lang="en" class="wallpaper">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="header">
+        <div class="timer">
+            <a id=Timer>🕑</a>
+        </div>
+        <div >
+            <a class="highscore id="highScoreText" href="highscore.html">High Scores!<span class="makebig">🎮</span></a>
+        </div>
+    </section>
+
+    <div class="app">
+        <h1 class="glow">JavaScript Coding Quiz</h1>
+            <div class="quiz">
+                <h2 id="question">Question Goes Here</h2>
+                    <h2 id="score"> </h2>
+            </div>
+            <div id="answer-buttons" class="answers">
+                    <button class="btn answer">Answer 1</button>
+                    <button class="btn answer">Answer 2</button>
+                    <button class="btn answer">Answer 3</button>
+                    <button class="btn answer">Answer 4</button>
+            </div>
+            <div>
+                <h3 id="result"></h3>
+            </div>
+            <button id="next-btn" class="next">Next</button>
+
+            <a href="highscore.html" id="saveScore" class="removelink">Save Score</a>
+
+            </div>
+    </div>
+    <div class="home">
+ 
+        <a href="index.html" id="btn1" class="btn1">⌂</a>
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
