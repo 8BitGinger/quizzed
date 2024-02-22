@@ -36,6 +36,8 @@ body {
   align-items: center;
   height: 100vh;
   width: 100%;
+  justify-content: center;
+  align-content: center;
 }
 
 .app {
@@ -49,13 +51,13 @@ body {
   z-index: 1;
   margin: auto;
   padding: 10px;
-  top: 20%;
+  top: 30%;
   max-width: 80vw;
   border-radius: 25px;
 }
 
 .btn1 {
-  font-size: 40px;
+  font-size: 60px;
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
@@ -104,6 +106,7 @@ body {
   left: 0;
   text-decoration: none;
   color: white;
+  font-size: 30px;
 }
 
 .home {
@@ -117,6 +120,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
+  font-size: 30px;
 }
 
 .btn {
@@ -124,6 +128,12 @@ body {
   background-color: black;
   color: rgb(42, 241, 255);
   font-size: 25px;
+  border: 2px solid white;
+  margin: 3px;
+}
+
+.btn:hover {
+  scale: 1.1;
 }
 
 .app h1 {
@@ -142,4 +152,31 @@ body {
 
 .trophy {
   max-width: 200px;
+}
+
+.incorrect {
+  background-color: red;
+}
+
+#saveScore {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .timer {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .highscore {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+
+  .btn1 {
+    margin-left: -10px;
+  }
 }
