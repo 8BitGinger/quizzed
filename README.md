@@ -3,6 +3,8 @@
 
 # Quizzed
 
+![logo](./assets/quizzedProject.jpg)
+
 ## Description
 
 A short entry level JavaScript quiz designed to test correct and incorrect answers, employ a timer, and save high score

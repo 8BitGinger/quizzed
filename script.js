@@ -124,6 +124,15 @@ var highscoreSort = highscoreA.toSorted((a, b) => a - b);
 let currentQuestionIndex = 0;
 let score = 0;
 
+function playAudio() {
+  const audio = new Audio('./assets/ribbit.mp3');
+
+  console.log('ribbit');
+  audio.play();
+}
+
+nextButton.addEventListener('click', playAudio());
+
 //this function sets up the countdown of timer.
 function countdown() {
   if (timeLeft == 0) {
